@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Streaming de Vídeo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Streaming de Vídeo</h1>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Buscar Filmes</h2>
+            <input type="text" id="search-input" placeholder="Digite o nome do filme">
+            <button onclick="searchMovies()">Buscar</button>
+        </section>
+        
+        <section id="catalog">
+            <h2>Catálogo</h2>
+            <div id="movie-list"></div>
+        </section>
+        <section id="details">
+            <h2>Detalhes do Título</h2>
+            <div id="movie-details"></div>
+        </section>
+        <section id="favorites">
+            <h2>Filmes Favoritos</h2>
+            <div id="favorite-list"></div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

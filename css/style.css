@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#search input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#search button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#catalog, #details, #favorites {
+    margin-bottom: 20px;
+}
+
+.movie-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.movie-item img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#movie-details {
+    display: none;
+}
+
+#favorites {
+    margin-top: 20px;
+}
+
+#favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#favorite-list .movie-item {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+}
